@@ -34,7 +34,7 @@ exports.ToolbarButton = function ToolbarButton(options) {
       tbb.setAttribute('tooltiptext', options.tooltiptext);
       tbb.addEventListener("command", function() {
         if (options.onCommand)
-          options.onCommand({}); // TODO: provide something?
+          options.onCommand(tbb);
 
         if (options.panel) {
           options.panel.show(tbb);
