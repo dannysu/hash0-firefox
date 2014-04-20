@@ -1,3 +1,6 @@
 [submodule "data/hash0"]
 	path = data/hash0
 	url = https://github.com/dannysu/hash0.git
+[submodule "packages/toolbarwidget-jplib"]
+	path = packages/toolbarwidget-jplib
+	url = https://github.com/Rob--W/toolbarwidget-jplib.git

@@ -2,12 +2,12 @@
     "name": "hash0",
     "fullName": "hash0",
     "id": "jid1-LxwsdIJohel4CA",
-    "description": "PasswordMaker.org + CryptoJS + ZeroBin client-side encryption concept = Hash0",
+    "description": "Synchronizable PBKDF2 based password generator",
     "author": "Danny Su (http://dannysu.com) <contact@dannysu.com>",
     "license": "MPL 2.0",
-    "version": "0.1",
+    "version": "2.0",
     "dependencies": [
-        "toolbarbutton",
+        "toolbarwidget",
         "addon-sdk"
     ]
 }
