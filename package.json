@@ -2,10 +2,12 @@
     "name": "hash0",
     "fullName": "hash0",
     "id": "jid1-LxwsdIJohel4CA",
-    "description": "Synchronizable PBKDF2 based password generator",
+    "description": "Synchronizable PBKDF2 based password generator... ",
     "author": "Danny Su (http://dannysu.com) <contact@dannysu.com>",
     "license": "MPL 2.0",
     "version": "2.1",
+    "icon": "data/icon48x48.png",
+    "icon64": "data/icon64x64.png",
     "dependencies": [
         "toolbarwidget",
         "addon-sdk"
