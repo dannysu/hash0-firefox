@@ -1,0 +1,17 @@
+#!/bin/sh
+
+rm data/hash0/app/dependencies/sjcl/configure
+rm -rf data/hash0/app/dependencies/sjcl/browserTest
+rm -rf data/hash0/app/dependencies/sjcl/compress
+rm -rf data/hash0/app/dependencies/sjcl/lint
+rm -rf data/hash0/app/dependencies/sjcl/jsdoc_toolkit-2.3.3-beta
+
+rm data/hash0/build/chrome
+
+cfx xpi
+
+cd data/hash0
+git reset --hard HEAD
+
+cd app/dependencies/sjcl
+git reset --hard HEAD
