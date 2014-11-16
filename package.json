@@ -6,8 +6,8 @@
     "author": "Danny Su (http://dannysu.com) <contact@dannysu.com>",
     "license": "MPL 2.0",
     "version": "2.1",
-    "icon": "data/icon48x48.png",
-    "icon64": "data/icon64x64.png",
+    "icon": "data/hash0/icons/icon48x48.png",
+    "icon64": "data/hash0/icons/icon64x64.png",
     "dependencies": [
         "toolbarwidget",
         "addon-sdk"
