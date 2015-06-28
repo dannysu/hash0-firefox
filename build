@@ -11,6 +11,7 @@ rm data/hash0/build/chrome
 cfx xpi
 
 cd data/hash0
+git checkout build/chrome
 
 cd app/dependencies/sjcl
 git reset --hard HEAD
