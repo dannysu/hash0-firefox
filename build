@@ -1,17 +1,19 @@
 #!/bin/sh
 
+# Remove unnecessary bits since Mozilla addons review process doesn't like it
 rm data/hash0/app/dependencies/sjcl/configure
 rm -rf data/hash0/app/dependencies/sjcl/browserTest
 rm -rf data/hash0/app/dependencies/sjcl/compress
 rm -rf data/hash0/app/dependencies/sjcl/lint
 rm -rf data/hash0/app/dependencies/sjcl/jsdoc_toolkit-2.3.3-beta
-
+rm -rf data/hash0/test
 rm data/hash0/build/chrome
 
 cfx xpi
 
 cd data/hash0
 git checkout build/chrome
+git checkout test
 
 cd app/dependencies/sjcl
 git reset --hard HEAD
